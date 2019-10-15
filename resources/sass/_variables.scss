@@ -1,0 +1,48 @@
+// Body
+$body-bg:white;
+
+h1{ color:red;
+
+}
+
+//borderes
+$laravel-border-color: darken($body-bg, 10);
+$list-group-border: $laravel-border-color;
+
+//btn 
+$btn-btn-default:blue;
+
+// Typography
+$icon-font-path: "~bootstrap/scss/bootstrap";
+$font-family: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+//brands
+$brands-primary:#3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+$brands-default:#3097D1;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//container
+.container{
+    margin-top: 3px;
+    width:80%;
+}
+//panel
+$panel-default-heading-bg:red;
